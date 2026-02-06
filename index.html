@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Patel - Website Maker</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f8f9fa; /* Light background */
+            color: #333; 
+        }
+        header { 
+            background-color: #007bff; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+            border-radius: 10px; /* Rounded corners */
+            margin: 20px; 
+            animation: fadeIn 1s ease-in-out; 
+        }
+        #home { 
+            background-color: #5dade2; /* Lighter navy for Welcome */
+            color: white; 
+        }
+        #about { 
+            background-color: #ba55d3; /* Lighter purple for About Us */
+            color: white; 
+        }
+        #services { 
+            background-color: #fffacd; /* Very pale gold for Services */
+            color: #333; /* Dark text for contrast */
+        }
+        #portfolio { 
+            background-color: #00796b; /* Lighter luxurious emerald for My Portfolio */
+            color: white; 
+        }
+        #contact { 
+            background-color: #e57373; /* Lighter luxurious crimson for Contact Me */
+            color: white; 
+        }
+        section { 
+            padding: 40px; 
+            max-width: 1200px; 
+            margin: 20px auto; 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+            animation: zoomIn 1s ease-in-out; 
+        }
+        .portfolio { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 20px; 
+        }
+        .portfolio-item { 
+            background: #f8f9fa; /* Light background for readability */
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 0 5px rgba(0,0,0,0.1); 
+            flex: 1 1 300px; 
+            color: #333; /* Dark text for readability */
+        }
+        .portfolio-item:nth-child(1) { /* My Website 1 */
+            border: 3px solid #ffed4e; /* Lighter gold border */
+        }
+        .portfolio-item:nth-child(2) { /* My Website 2 */
+            border: 3px solid #6a0dad; /* Lighter purple border */
+        }
+        footer { 
+            background-color: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 20px; 
+            margin-top: 20px; 
+            animation: zoomIn 1s ease-in-out; 
+        }
+        @keyframes fadeIn { 
+            from { opacity: 0; } 
+            to { opacity: 1; } 
+        }
+        @keyframes zoomIn { 
+            from { transform: scale(0.9); opacity: 0; } 
+            to { transform: scale(1.05); opacity: 1; } /* Upscaled effect */
+        }
+        @media (max-width: 768px) { 
+            .portfolio { flex-direction: column; } 
+            section { margin: 10px; } 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jay Patel - Professional Website Maker</h1>
+        <p>Creating stunning websites for businesses and individuals.</p>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Hi, I'm Jay Patel, a skilled website maker specializing in responsive, user-friendly websites. Let's build something amazing together!</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>I have experience creating websites for various clients. I focus on clean design, fast loading, and mobile optimization. My goal is to help your business grow online.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Custom Website Design</li>
+            <li>Responsive Development</li>
+            <li>E-commerce Sites</li>
+            <li>SEO Optimization</li>
+            <li>Maintenance & Updates</li>
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <h3>My Website Demo 1</h3>
+                <p>A demo website showcasing my skills.</p>
+                <a href="https://jaypatel4809-p.github.io/Girishcolddrink/" target="_blank">View Live Site</a>
+            </div>
+            <div class="portfolio-item">
+                <h3>My Website Demo 2</h3>
+                <p>Another demo with enhanced features.</p>
+                <a href="https://jaypatel4809-p.github.io/Girish-cold-drink/" target="_blank">View Live Site</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Phone/SMS: <a href="tel:+919428653836" style="color: white;">+91 9428653836 (Call)</a> | <a href="sms:+919428653836" style="color: white;">+91 9428653836 (SMS)</a></p>
+        <p>Email: jaypatel4809@icloud.com</p>
+        <p>Let's discuss your project!</p>
+    </section>
+    
+    <footer>
+        <p>Thanks for visiting us!</p>
+    </footer>
+    
+    <script>
+        // Optional: Add more JS if needed, but animations are CSS-based
+    </script>
+</body>
+</html>
